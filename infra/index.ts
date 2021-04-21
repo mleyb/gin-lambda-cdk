@@ -17,7 +17,7 @@ export class GoAPILambdaStack extends cdk.Stack {
       this,
       "HelloGoServerLambdaFnZip",
       {
-        path: path.join(__dirname, "../functions/gin-server"),
+        path: path.join(__dirname, "../functions/gin-server/bin"),
       }
     )
 
