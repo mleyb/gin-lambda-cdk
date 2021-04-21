@@ -118,7 +118,9 @@ dist
 
 .vscode
 
-functions/gin-server/main
+functions/gin-server/bin
+
+functions/gin-server/main.zip
 
 infra/cdk.out
 infra/*.js
