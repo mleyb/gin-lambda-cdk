@@ -1,9 +1,10 @@
-OUTPUT := gin-server
+BIN := bin
+OUTPUT := main
 
 .PHONY : build
 
 build:
-	GOOS=linux GOARCH=amd64 go build -v -o ${OUTPUT} .
+	GOOS=linux GOARCH=amd64 go build -v -o ${BIN}/${OUTPUT} .
 
 clean:
 	go clean
